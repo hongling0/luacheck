@@ -133,7 +133,7 @@ function Runner:_prepare_inputs(inputs)
          abs_filename = input.abs_path
       end
 
-      if not input.filename or self:_is_filename_included(abs_filename) then
+      if input.filename and not self:_is_filename_included(abs_filename) then
          table.insert(res, input)
       end
    end
