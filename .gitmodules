@@ -1,0 +1,12 @@
+[submodule "3rd/lanes"]
+	path = 3rd/lanes
+	url = https://github.com/LuaLanes/lanes.git
+[submodule "3rd/argparse"]
+	path = 3rd/argparse
+	url = https://github.com/mpeterv/argparse.git
+[submodule "3rd/lua"]
+	path = 3rd/lua
+	url = https://github.com/lua/lua.git
+[submodule "3rd/luafilesystem"]
+	path = 3rd/luafilesystem
+	url = https://github.com/keplerproject/luafilesystem.git
